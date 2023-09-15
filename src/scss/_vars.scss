@@ -1,0 +1,11 @@
+// Переменные
+$color-yellow: #FBD846;
+$color-black: #333333;
+
+// Шаблоны 
+%flex-row{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+

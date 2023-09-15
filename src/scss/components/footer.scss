@@ -1,0 +1,73 @@
+.footer{
+	background-color: #333333;
+	&__inner{
+		display: flex;
+		justify-content: space-between;
+		padding: 27px 0 24px;
+		color: #fff;
+		font-size: 16px;
+	}
+	&__info{
+		max-width: 253px;
+	}
+	&__text{
+		margin-top: 32px;
+		line-height: 20px;
+	}
+	&__title{
+		font-size: 20px;
+		color: #818181;
+		margin-bottom: 24px;
+	}
+	&__chapter-list{
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+	}
+	&__contacts-inner{
+		text-align: right;
+		margin-top: 7px;
+	}
+	&__contacts-link{
+		display: flex;
+	}
+	&__contacts-img{
+		margin-right: 10px;
+	}
+	&__contacts-email{
+		margin-bottom: 16px;
+	}
+	&__contacts-number{
+		margin-bottom: 20px;
+	}
+	&__contacts-number:last-child{
+		margin-bottom: 0px;
+	}
+	&__contacts-social{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		margin-top: 50px;
+	}
+	&__contacts__social-link{
+		position: relative;
+		padding-left: 27px;
+	}
+	&__social-vk::before{
+		content: '';
+		background: url('@img/svg/social-vk.svg') 0 0 no-repeat;
+		width: 22px;
+		height: 12px;
+		position: absolute;
+		left: 0;
+		top: 4px;
+	}
+	&__social-ok::before{
+		content: '';
+		background: url('@img/svg/social-ok.svg') 0 0 no-repeat;
+		width: 12px;
+		height: 22px;
+		position: absolute;
+		left: 0;
+	}
+}

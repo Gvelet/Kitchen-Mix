@@ -1,0 +1,13 @@
+// Общие файлы
+@import "_vars";
+@import "fonts";
+@import "_reset";
+@import "_global";
+
+// Компоненты
+@import "components/header";
+@import "components/footer";
+
+// Страницы
+@import "pages/index";
+
