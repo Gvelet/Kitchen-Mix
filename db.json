@@ -1,0 +1,103 @@
+{
+  "models": [
+    {
+        "img": "@img/content/models/model-loft-1.png",
+        "altimg": "model-loft-1",
+        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+        "price": 19899,
+        "discountedPrice": 14900,
+        "popular": true
+    },
+    {
+        "img": "@img/content/models/model-orhideya-1.png",
+        "altimg": "model-orhideya-1",
+        "title": "Кухонный гарнитур с фотопечатью “Орхидея”. Длина 2 метра.",
+        "price": 19899,
+        "discountedPrice": 14900,
+        "popular": false
+    },
+    {
+        "img": "@img/content/models/model-loft-2.png",
+        "altimg": "model-loft-2",
+        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+        "price": 19899,
+        "discountedPrice": 14900,
+        "popular": false
+    },
+    {
+        "img": "@img/content/models/model-orhideya-2.png",
+        "altimg": "model-orhideya-2",
+        "title": "Кухонный гарнитур с фотопечатью “Орхидея”. Длина 2 метра.",
+        "price": 19899,
+        "discountedPrice": 14900,
+        "popular": false
+    },
+    {
+        "img": "@img/content/models/model-loft-3.png",
+        "altimg": "model-loft-3",
+        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+        "price": 19899,
+        "discountedPrice": 14900,
+        "popular": true
+    },
+    {
+        "img": "@img/content/models/model-loft-4.png",
+        "altimg": "model-loft-4",
+        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+        "price": 19899,
+        "discountedPrice": 14900,
+        "popular": true
+    },
+    {
+        "img": "@img/content/models/model-loft-5.png",
+        "altimg": "model-loft-5",
+        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+        "price": 19899,
+        "discountedPrice": 14900,
+        "popular": true
+    },
+    {
+        "img": "@img/content/models/model-loft-6.png",
+        "altimg": "model-loft-6",
+        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+        "price": 29899,
+        "discountedPrice": 18900,
+        "popular": true
+    },
+    {
+        "img": "@img/content/models/model-loft-7.png",
+        "altimg": "model-loft-7",
+        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+        "price": 12899,
+        "discountedPrice": 7900,
+        "popular": false
+    },
+    {
+        "img": "@img/content/models/model-loft-8.png",
+        "altimg": "model-loft-8",
+        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+        "price": 19899,
+        "discountedPrice": 14900,
+        "popular": true
+    },
+    {
+        "img": "@img/content/models/model-loft-9.png",
+        "altimg": "model-loft-9",
+        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+        "price": 14899,
+        "discountedPrice": 13900,
+        "popular": false
+    },
+    {
+        "img": "@img/content/models/model-loft-10.png",
+        "altimg": "model-loft-10",
+        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+        "price": 19899,
+        "discountedPrice": 14900,
+        "popular": false
+    }
+  ],
+  "requests": [
+      
+  ]
+}

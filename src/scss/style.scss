@@ -1,8 +1,8 @@
 // Общие файлы
-@import "_vars";
-@import "fonts";
-@import "_reset";
-@import "_global";
+@import "./store/_vars";
+@import "./store/fonts";
+@import "./store/_reset";
+@import "./store/_global";
 
 // Компоненты
 @import "components/header";
