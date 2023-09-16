@@ -122,8 +122,6 @@ input::-ms-clear {
 button, input[type=submit] {
   display: inline-block;
   box-shadow: none;
-  background-color: transparent;
-  background: none;
   cursor: pointer;
 }
 
@@ -217,6 +215,35 @@ body {
   height: 25px;
   left: -30px;
   top: -3px;
+}
+
+.weather-search {
+  background-color: #FBF0C4;
+  padding: 5px;
+  border-radius: 10px 0 0 10px;
+  max-width: 150px;
+}
+.weather-submit {
+  background-color: #DBC25E;
+  padding: 5px;
+  border-radius: 0 5px 5px 0;
+  margin-left: -3px;
+}
+.weather-info {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.weather-temperature {
+  display: flex;
+  padding-right: 20px;
+}
+.weather-city {
+  margin-right: 10px;
+}
+.weather-img {
+  width: 40px;
+  height: 40px;
+  background: transparent;
 }
 
 .header__menu {

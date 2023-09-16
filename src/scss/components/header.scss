@@ -43,6 +43,37 @@
     }
 }
 
+.weather{
+    &-search{
+        background-color: #FBF0C4;
+        padding: 5px;
+        border-radius: 10px 0 0 10px;
+        max-width: 150px;
+    }
+    &-submit{
+        background-color: #DBC25E;
+        padding: 5px;
+        border-radius: 0 5px 5px 0;
+        margin-left: -3px;
+    }
+    &-info{
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    &-temperature{
+        display: flex;
+        padding-right: 20px;
+    }
+    &-city{
+        margin-right: 10px;
+    }
+    &-img{
+        width: 40px;
+        height: 40px;
+        background: transparent;
+    }
+}
+
 .header__menu{
     padding: 18px 0;
 }
