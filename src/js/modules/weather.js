@@ -1,5 +1,5 @@
 function weather(){
-    const link = `http://api.weatherstack.com/current?access_key=49117e5d323cc64734f7b40ca6f38faa`;
+    const link = `http://api.weatherstack.com/current?access_key=8bb158d5a1460720a67eb65684e83f98`;
 
     const weatherInfo = document.querySelector('.weather-info');
     const header = document.querySelector('.header__top');
@@ -17,10 +17,10 @@ function weather(){
     const fetchWeather = async () => {
         try{
             const getCity = localStorage.getItem('city') || store.city
-            console.log(getCity)
+            
             const response = await fetch(`${link}&query=${getCity}`);
             const data = await response.json('');
-
+            
             const {
                 current: {temperature, is_day: isDay},
                 location: {name, localtime},

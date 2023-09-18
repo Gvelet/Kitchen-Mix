@@ -18,7 +18,7 @@
         font-weight: 400;
     }
     &__services{
-        gap: 65px 70px;
+        gap: 45px 70px;
         max-width: 627px;
         display: flex;
         flex-wrap: wrap;
@@ -47,6 +47,7 @@
     &__price{
         display: flex;
         align-items: center;
+        padding-bottom: 70px;
     }
     &__price-link{
         margin-top: 15px;
@@ -96,11 +97,105 @@
         text-align: center;
         background-color: $color-yellow;
     }
-    &__text p{
+    &__text{
         text-align: center;
         font-size: 20px;
         font-weight: 300;
         line-height: 30px;
         padding: 13px 90px 23px;
+    }
+}
+
+.models{
+    background: linear-gradient(90deg, #FFE472 0%, #F8CC55 100%, #FBD846 100%);
+    &__title{
+        margin-bottom: 46px;
+        padding-top: 52px;
+        text-align: center;
+    }
+    &__inner{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 25px;
+        margin-bottom: 47px;
+    }
+    &__column{
+        max-width: 360px;
+        transition: all .3s ease-out;
+        border: 2px solid transparent;
+        &:hover {
+            border: 2px solid #99CB38;
+        }
+        &:hover .models__info-title{
+            color: #99CB38;
+        }
+        &:hover .models__buy-add svg path{
+           stroke: #fff;
+        }
+        &:hover .models__buy-add:before{
+            background-color: #99CB38;
+        }
+    }
+    &__item{
+        background-color: #fff;
+    }
+    &__info{
+        padding: 24px 25px 32px 29px;
+        background-color: #fff;
+        box-shadow: 5px 5px 10px 0px rgba(51, 51, 51, 0.05);
+        height: 160px
+    }
+    &__info-title{
+        transition: all .3s ease-out;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 22px;
+    }
+    &__buy{
+        @extend %flex-row;
+    }
+    &__discount{
+        color: #B2B2B2;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: line-through;
+        margin-bottom: 6px;
+    }
+    &__price{
+        color: #99CB38;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    &__buy-add{
+        position: relative;
+        & svg{
+            position: relative;
+            z-index: 1;
+        }
+        &:before{
+            transition: all .3s ease-out;
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-color: #F4F4F4;
+            border-radius: 50%;
+            left: -45%;
+            top: -40%;
+        }
+    }
+    &__button{
+        text-align: center;
+        padding-bottom: 51px;
+    }
+    &__btn{
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 17px 64px 22px;
+        border-radius: 30px;
+        background: linear-gradient(270deg, #99CB38 0.07%, #C0F35B 99.89%);
+        box-shadow: 10px 10px 20px 0px rgba(255, 216, 111, 0.40);
     }
 }
