@@ -233,6 +233,120 @@
         "popular": false
     }
   ],
+  "kitchenStyle": [
+    {
+        "img": "img/content/styles/styles-1.jpg",
+        "category": "economy"
+    },
+    {
+        "img": "img/content/styles/styles-5.jpg",
+        "category": "scandinavian"
+    },
+    {
+        "img": "img/content/styles/styles-5.jpg",
+        "category": "small"
+    },
+    {
+        "img": "img/content/styles/styles-6.jpg",
+        "category": "classic"
+    },
+    {
+        "img": "img/content/styles/styles-2.jpg",
+        "category": "scandinavian"
+    },
+    {
+        "img": "img/content/styles/styles-2.jpg",
+        "category": "minimalism"
+    },
+    {
+        "img": "img/content/styles/styles-5.jpg",
+        "category": "minimalism"
+    },
+    {
+        "img": "img/content/styles/styles-4.jpg",
+        "category": "minimalism"
+    },
+    {
+        "img": "img/content/styles/styles-3.jpg",
+        "category": "classic"
+    },
+    {
+        "img": "img/content/styles/styles-3.jpg",
+        "category": "classic"
+    },
+    {
+        "img": "img/content/styles/styles-1.jpg",
+        "category": "hi-tech"
+    },
+    {
+        "img": "img/content/styles/styles-6.jpg",
+        "category": "hi-tech"
+    },
+    {
+        "img": "img/content/styles/styles-3.jpg",
+        "category": "loft"
+    },
+    {
+        "img": "img/content/styles/styles-2.jpg",
+        "category": "provence"
+    },
+    {
+        "img": "img/content/styles/styles-1.jpg",
+        "category": "loft"
+    },
+    {
+        "img": "img/content/styles/styles-1.jpg",
+        "category": "provence"
+    },
+    {
+        "img": "img/content/styles/styles-1.jpg",
+        "category": "loft"
+    },
+    {
+        "img": "img/content/styles/styles-1.jpg",
+        "category": "provence"
+    },
+    {
+        "img": "img/content/styles/styles-2.jpg",
+        "category": "small"
+    },
+    {
+        "img": "img/content/styles/styles-5.jpg",
+        "category": "small"
+    },
+    {
+        "img": "img/content/styles/styles-4.jpg",
+        "category": "small"
+    },
+    {
+        "img": "img/content/styles/styles-3.jpg",
+        "category": "provence"
+    },
+    {
+        "img": "img/content/styles/styles-6.jpg",
+        "category": "provence"
+    },
+    {
+        "img": "img/content/styles/styles-5.jpg",
+        "category": "scandinavian"
+    },
+    {
+        "img": "img/content/styles/styles-1.jpg",
+        "category": "economy"
+    },
+    {
+        "img": "img/content/styles/styles-4.jpg",
+        "category": "scandinavian"
+    },
+    {
+        "img": "img/content/styles/styles-3.jpg",
+        "category": "economy"
+    },
+    {
+        "img": "img/content/styles/styles-2.jpg",
+        "category": "scandinavian"
+    }
+  ],
   "requests": [
       
   ]
