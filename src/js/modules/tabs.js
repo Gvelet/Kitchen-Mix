@@ -60,7 +60,6 @@ function tabs(){
         })
     }
 
-
     const renderTabsContent = () => { //markup
         tabsContent.innerHTML = '';
 
@@ -78,9 +77,6 @@ function tabs(){
             `
         })
     }
-
-    
-
 
     fetchTabs()
 }
