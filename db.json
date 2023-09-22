@@ -1,353 +1,376 @@
 {
   "models": [
     {
-        "img": "img/content/models/models-loft-1.png",
-        "altimg": "model-loft-1",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 19899,
-        "discountedPrice": 14900,
-        "popular": true
+      "img": "img/content/models/models-loft-1.png",
+      "altimg": "model-loft-1",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 19899,
+      "discountedPrice": 14900,
+      "popular": true
     },
     {
-        "img": "img/content/models/models-orhideya-1.png",
-        "altimg": "model-orhideya-1",
-        "title": "Кухонный гарнитур с фотопечатью “Орхидея”. Длина 2 метра.",
-        "price": 19899,
-        "discountedPrice": 14900,
-        "popular": false
+      "img": "img/content/models/models-orhideya-1.png",
+      "altimg": "model-orhideya-1",
+      "title": "Кухонный гарнитур с фотопечатью “Орхидея”. Длина 2 метра.",
+      "price": 19899,
+      "discountedPrice": 14900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-2.png",
-        "altimg": "model-loft-2",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 19899,
-        "discountedPrice": 14900,
-        "popular": false
+      "img": "img/content/models/models-loft-2.png",
+      "altimg": "model-loft-2",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 19899,
+      "discountedPrice": 14900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-orhideya-2.png",
-        "altimg": "model-orhideya-2",
-        "title": "Кухонный гарнитур с фотопечатью “Орхидея”. Длина 2 метра.",
-        "price": 19899,
-        "discountedPrice": 14900,
-        "popular": false
+      "img": "img/content/models/models-orhideya-2.png",
+      "altimg": "model-orhideya-2",
+      "title": "Кухонный гарнитур с фотопечатью “Орхидея”. Длина 2 метра.",
+      "price": 19899,
+      "discountedPrice": 14900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-3.png",
-        "altimg": "model-loft-3",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 19899,
-        "discountedPrice": 0,
-        "popular": true
+      "img": "img/content/models/models-loft-3.png",
+      "altimg": "model-loft-3",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 19899,
+      "discountedPrice": 0,
+      "popular": true
     },
     {
-        "img": "img/content/models/models-loft-4.png",
-        "altimg": "model-loft-4",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 19899,
-        "discountedPrice": 14900,
-        "popular": true
+      "img": "img/content/models/models-loft-4.png",
+      "altimg": "model-loft-4",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 19899,
+      "discountedPrice": 14900,
+      "popular": true
     },
     {
-        "img": "img/content/models/models-loft-5.png",
-        "altimg": "model-loft-5",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 19899,
-        "discountedPrice": 14900,
-        "popular": true
+      "img": "img/content/models/models-loft-5.png",
+      "altimg": "model-loft-5",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 19899,
+      "discountedPrice": 14900,
+      "popular": true
     },
     {
-        "img": "img/content/models/models-loft-6.png",
-        "altimg": "model-loft-6",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 29899,
-        "discountedPrice": 18900,
-        "popular": true
+      "img": "img/content/models/models-loft-6.png",
+      "altimg": "model-loft-6",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 29899,
+      "discountedPrice": 18900,
+      "popular": true
     },
     {
-        "img": "img/content/models/models-loft-7.png",
-        "altimg": "model-loft-7",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 12899,
-        "discountedPrice": 7900,
-        "popular": false
+      "img": "img/content/models/models-loft-7.png",
+      "altimg": "model-loft-7",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 12899,
+      "discountedPrice": 7900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-8.png",
-        "altimg": "model-loft-8",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 19899,
-        "discountedPrice": 14900,
-        "popular": true
+      "img": "img/content/models/models-loft-8.png",
+      "altimg": "model-loft-8",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 19899,
+      "discountedPrice": 14900,
+      "popular": true
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-10.png",
-        "altimg": "model-loft-10",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 19899,
-        "discountedPrice": 14900,
-        "popular": false
+      "img": "img/content/models/models-loft-10.png",
+      "altimg": "model-loft-10",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 19899,
+      "discountedPrice": 14900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     },
     {
-        "img": "img/content/models/models-loft-9.png",
-        "altimg": "model-loft-9",
-        "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
-        "price": 14899,
-        "discountedPrice": 13900,
-        "popular": false
+      "img": "img/content/models/models-loft-9.png",
+      "altimg": "model-loft-9",
+      "title": "Кухонный гарнитур “ЛОФТ”. Длина 2 метра.",
+      "price": 14899,
+      "discountedPrice": 13900,
+      "popular": false
     }
   ],
   "kitchenStyle": [
     {
-        "img": "img/content/styles/styles-1.jpg",
-        "category": "economy"
+      "img": "img/content/styles/styles-1.jpg",
+      "category": "economy"
     },
     {
-        "img": "img/content/styles/styles-5.jpg",
-        "category": "scandinavian"
+      "img": "img/content/styles/styles-5.jpg",
+      "category": "scandinavian"
     },
     {
-        "img": "img/content/styles/styles-5.jpg",
-        "category": "small"
+      "img": "img/content/styles/styles-5.jpg",
+      "category": "small"
     },
     {
-        "img": "img/content/styles/styles-6.jpg",
-        "category": "classic"
+      "img": "img/content/styles/styles-6.jpg",
+      "category": "classic"
     },
     {
-        "img": "img/content/styles/styles-2.jpg",
-        "category": "scandinavian"
+      "img": "img/content/styles/styles-2.jpg",
+      "category": "scandinavian"
     },
     {
-        "img": "img/content/styles/styles-2.jpg",
-        "category": "minimalism"
+      "img": "img/content/styles/styles-2.jpg",
+      "category": "minimalism"
     },
     {
-        "img": "img/content/styles/styles-5.jpg",
-        "category": "minimalism"
+      "img": "img/content/styles/styles-5.jpg",
+      "category": "minimalism"
     },
     {
-        "img": "img/content/styles/styles-4.jpg",
-        "category": "minimalism"
+      "img": "img/content/styles/styles-4.jpg",
+      "category": "minimalism"
     },
     {
-        "img": "img/content/styles/styles-3.jpg",
-        "category": "classic"
+      "img": "img/content/styles/styles-3.jpg",
+      "category": "classic"
     },
     {
-        "img": "img/content/styles/styles-3.jpg",
-        "category": "classic"
+      "img": "img/content/styles/styles-3.jpg",
+      "category": "classic"
     },
     {
-        "img": "img/content/styles/styles-1.jpg",
-        "category": "hi-tech"
+      "img": "img/content/styles/styles-1.jpg",
+      "category": "hi-tech"
     },
     {
-        "img": "img/content/styles/styles-6.jpg",
-        "category": "hi-tech"
+      "img": "img/content/styles/styles-6.jpg",
+      "category": "hi-tech"
     },
     {
-        "img": "img/content/styles/styles-3.jpg",
-        "category": "loft"
+      "img": "img/content/styles/styles-3.jpg",
+      "category": "loft"
     },
     {
-        "img": "img/content/styles/styles-2.jpg",
-        "category": "provence"
+      "img": "img/content/styles/styles-2.jpg",
+      "category": "provence"
     },
     {
-        "img": "img/content/styles/styles-1.jpg",
-        "category": "loft"
+      "img": "img/content/styles/styles-1.jpg",
+      "category": "loft"
     },
     {
-        "img": "img/content/styles/styles-1.jpg",
-        "category": "provence"
+      "img": "img/content/styles/styles-1.jpg",
+      "category": "provence"
     },
     {
-        "img": "img/content/styles/styles-1.jpg",
-        "category": "loft"
+      "img": "img/content/styles/styles-1.jpg",
+      "category": "loft"
     },
     {
-        "img": "img/content/styles/styles-1.jpg",
-        "category": "provence"
+      "img": "img/content/styles/styles-1.jpg",
+      "category": "provence"
     },
     {
-        "img": "img/content/styles/styles-2.jpg",
-        "category": "small"
+      "img": "img/content/styles/styles-2.jpg",
+      "category": "small"
     },
     {
-        "img": "img/content/styles/styles-5.jpg",
-        "category": "small"
+      "img": "img/content/styles/styles-5.jpg",
+      "category": "small"
     },
     {
-        "img": "img/content/styles/styles-4.jpg",
-        "category": "small"
+      "img": "img/content/styles/styles-4.jpg",
+      "category": "small"
     },
     {
-        "img": "img/content/styles/styles-3.jpg",
-        "category": "provence"
+      "img": "img/content/styles/styles-3.jpg",
+      "category": "provence"
     },
     {
-        "img": "img/content/styles/styles-6.jpg",
-        "category": "provence"
+      "img": "img/content/styles/styles-6.jpg",
+      "category": "provence"
     },
     {
-        "img": "img/content/styles/styles-5.jpg",
-        "category": "scandinavian"
+      "img": "img/content/styles/styles-5.jpg",
+      "category": "scandinavian"
     },
     {
-        "img": "img/content/styles/styles-1.jpg",
-        "category": "economy"
+      "img": "img/content/styles/styles-1.jpg",
+      "category": "economy"
     },
     {
-        "img": "img/content/styles/styles-4.jpg",
-        "category": "scandinavian"
+      "img": "img/content/styles/styles-4.jpg",
+      "category": "scandinavian"
     },
     {
-        "img": "img/content/styles/styles-3.jpg",
-        "category": "economy"
+      "img": "img/content/styles/styles-3.jpg",
+      "category": "economy"
     },
     {
-        "img": "img/content/styles/styles-2.jpg",
-        "category": "scandinavian"
+      "img": "img/content/styles/styles-2.jpg",
+      "category": "scandinavian"
     }
   ],
   "requests": [
-      
+    {
+      "name": "324234234",
+      "phone": "234234",
+      "file": "undefined",
+      "id": 1
+    },
+    {
+      "name": "123",
+      "phone": "1321",
+      "file": {},
+      "id": 2
+    },
+    {
+      "name": "123123",
+      "phone": "123123123123",
+      "file": {},
+      "id": 3
+    },
+    {
+      "name": "123123123",
+      "phone": "123123123",
+      "file": {},
+      "id": 4
+    }
   ]
 }

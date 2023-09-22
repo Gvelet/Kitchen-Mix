@@ -62,8 +62,3 @@ function modals(){
 }
 
 export default modals;
-
-
-// fetch('http://localhost:3000/models')
-// .then(res=>res.json())
-// .then(json=>console.log(json))
