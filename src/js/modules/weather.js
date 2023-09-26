@@ -20,7 +20,7 @@ function weather(){
             
             const response = await fetch(`${link}&query=${getCity}`);
             const data = await response.json('');
-            
+
             const {
                 current: {temperature, is_day: isDay},
                 location: {name, localtime},

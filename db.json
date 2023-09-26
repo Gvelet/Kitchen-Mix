@@ -371,6 +371,96 @@
       "phone": "123123123",
       "file": {},
       "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    }
+  ],
+  "questionsQuiz": [
+    {
+      "numberQuestions": 1,
+      "type": "radio-img",
+      "title": "Какое <span>расположение кухни</span> вас интересует",
+      "answers": [
+        {
+          "side": "A",
+          "answer": "Прямая",
+          "img": "img/content/quiz/quiz-answer-1.png"
+        },
+        {
+          "side": "AB",
+          "answer": "Угловая",
+          "img": "img/content/quiz/quiz-answer-2.png"
+        },
+        {
+          "side": "ABC",
+          "answer": "П-образная",
+          "img": "img/content/quiz/quiz-answer-3.png"
+        }
+      ]
+    },
+    {
+      "numberQuestions": 2,
+      "type": "slider-сontrols",
+      "title": "Введите <span>размеры</span> кухни:",
+      "answers": [
+        {
+          "side": "A",
+          "title": ["Сторона А (см)"],
+          "img": "img/content/quiz/range-straight.png"
+        },
+        {
+          "side": "AB",
+          "title": ["Сторона А (см)", "Сторона В (см)"],
+          "img": "img/content/quiz/range-corner.png"
+        },
+        {
+          "side": "ABC",
+          "title": ["Сторона А (см)", "Сторона В (см)", "Сторона С (см)"],
+          "img": "img/content/quiz/range__u-shaped.png"
+        }
+      ]
+    },
+    {
+      "numberQuestions": 3,
+      "type": "checkbox-img",
+      "title": "Выберите <span>бытовую технику</span>, которая будет установлена на кухне",
+      "answers": [
+        {
+          "answer": "Встроенный духовой шкаф и варочная поверхность",
+          "img": "img/content/quiz/ovenandhob.png"
+        },
+        {
+          "answer": "Отдельно стоящая плита",
+          "img": "img/content/quiz/plate.png"
+        },
+        {
+          "answer": "Встроеная посудомоечная машинка",
+          "img": "img/content/quiz/dishwasher.png"
+        },
+        {
+          "answer": "Холодильник",
+          "img": "img/content/quiz/fridge.png"
+        }
+      ]
+    },
+    {
+      "numberQuestions": 4,
+      "type": "radio",
+      "title": "Укажите планируемы <span>бюджет</span> кухни",
+      "img": "img/content/quiz/quiz-two-question.png",
+      "answers": [
+        "до 30 000 ₽",
+        "от 80 000 до  150 000₽",
+        "от 30 000 до  80 000₽",
+        "более 150 000₽"
+      ]
     }
   ]
 }

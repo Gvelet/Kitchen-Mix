@@ -60,7 +60,7 @@ function tabs(){
         })
     }
 
-    const renderTabsContent = () => { //markup
+    const renderTabsContent = () => { 
         tabsContent.innerHTML = '';
 
         store.img.forEach(item => {
