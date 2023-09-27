@@ -7,14 +7,13 @@ export default function useRange(){
             const parent = item.closest('.question__range-item');
             const outputRange = parent.querySelector('.question__range-input');
 
-            let value = item.value;
+            let value = +item.value;
 
             const min = +item.min;
             const max = +item.max; 
 
-            const value1 = +item.value;
-            if (value1 > max) { item.value = max }
-            if (value1 < min) { item.value = min }
+            if (value > max) { item.value = max }
+            if (value < min) { item.value = min }
 
             range.forEach(item => {
                 let trackWidth = (value - item.min) / (item.max - item.min) * 100;

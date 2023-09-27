@@ -64,9 +64,10 @@ const markupTemplate = (data) => {
     `       
 };
 
+
 const markup = (data) => {
     let id = 0;
-     
+    
     if(data.type === 'radio-img'){
          return store.answers.map(item => {
             id++
@@ -74,7 +75,7 @@ const markup = (data) => {
                 <div class="question__radio">
                     <input type="radio" name="location-kitchen" value="${item.answer}" id="radio-${id}">
                     <label for="radio-${id}">
-                        <div class="question__radio__container data-side='${item.side}'">
+                        <div class="question__radio__container" data-side='${item.side}'>
                             <h4 class="question__radio-title">${item.answer}</h4>
                             <img src="${item.img}">
                             <div class="question__checkmark"></div>
@@ -84,16 +85,22 @@ const markup = (data) => {
             `
         }).join('')
     }else if(data.type === 'slider-сontrols'){
+        const nameSize = ['A', 'B', 'C'];
+        const {answers, side} = store;
+        
+        const getSelectedLocation = answers.filter(answer => {
+            return answer.side === side
+        })
+        
         return `
-        <img src="img/content/quiz/range__u-shaped.png" alt="">
+        <img src="${getSelectedLocation[0].img}" alt="">
         <div class="question__range-inner">
-            ${store.answers.map(item => {
+            ${getSelectedLocation[0].title.map(item => {
                 id++
-                const nameSize = ['A', 'B', 'C'];
                 return `
                 <div class="question__range-item">
                     <div class="question__range-info">
-                        <h4 class="question__range-title">${item.title[0]}</h4>
+                        <h4 class="question__range-title">${item}</h4>
                         <input name="size-kitchen-${nameSize[id-1]}" type="number" placeholder="0" class="question__range-count" min="0" max="500">
                     </div>                                                  
                     <input name="size-kitchen-${nameSize[id-1]}" class="question__range-input" type="range" min="0" max="500" value="0">

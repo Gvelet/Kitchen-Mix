@@ -11,10 +11,7 @@ function quiz(){
         
         startTemplate()
         const quizStartBtn = document.querySelector('.questions__about-btn');
-        quizStartBtn.addEventListener('click', () => {
-            renderQuestion(data, store.numberQuestions);
-        });
-        
+        quizStartBtn.addEventListener('click', () => renderQuestion(data, store.numberQuestions));       
     }
 
 
@@ -22,24 +19,33 @@ function quiz(){
         wrapperQuiz.innerHTML = ''
     }
 
+    const getAttributeFromLocation = () => {
+        const radioCcontainer = document.querySelectorAll('.question__radio__container');
+
+        radioCcontainer.forEach(item => {
+            item.addEventListener('click', () =>  store.side = item.dataset.side )
+        })
+    }
 
     const renderQuestion = (data, numberQuestion) => {
         hiddenQuiz();
-
+        
         const selectQuestionOrder = data.filter(question => {
-          if(question.numberQuestions === numberQuestion){
-            pullingData(question);
-            wrapperQuiz.innerHTML = markupTemplate(store);
-          }
+            if(question.numberQuestions === numberQuestion){
+                pullingData(question);
+                wrapperQuiz.innerHTML = markupTemplate(store);
+            }
 
         });
 
+        getAttributeFromLocation()
+        
         useRange()
         
         const quizBtnNext = document.querySelector('.question__btn-next');
         const quizBtnPrev = document.querySelector('.question__btn-prev');
-        const formQuiz = document.querySelector('.question__form') 
-
+        const formQuiz = document.querySelector('.question__form');
+        
         quizBtnNext.addEventListener('click', (e) => {
             e.preventDefault;
             numberQuestion++
@@ -55,7 +61,7 @@ function quiz(){
             const sizeKitchen = formData.get('size-kitchen');
             const selectedTechnique = formData.get('selected-technique');
             const budgetKitchen = formData.get('budget-kitchen');
- 
+
             if(locationKitchen){
                 storeForm.location = locationKitchen
             }
@@ -83,18 +89,16 @@ function quiz(){
             if(budgetKitchen){
                 storeForm.budgetKitchen = budgetKitchen
             }
-            if(numberQuestion !== store.lengthQuestion){
-                renderQuestion(data, numberQuestion)
-            }else{
-                formTemplate()
-            }
-            console.log(numberQuestion, store.lengthQuestion)
+
+            (numberQuestion !== store.lengthQuestion) ? renderQuestion(data, numberQuestion) : formTemplate()
+            
             
         });
         
-        quizBtnPrev.addEventListener('click', () => {
+        quizBtnPrev.addEventListener('click', (e) => {
+            e.preventDefault;
             numberQuestion--
-            console.log(numberQuestion)
+
             if(numberQuestion === 0){
                 startTemplate();
                 fetchQuiz();
